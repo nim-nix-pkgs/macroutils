@@ -11,6 +11,7 @@
   inputs.src-macroutils-v1_2_0.ref   = "refs/tags/v1.2.0";
   inputs.src-macroutils-v1_2_0.owner = "PMunch";
   inputs.src-macroutils-v1_2_0.repo  = "macroutils";
+  inputs.src-macroutils-v1_2_0.dir   = "";
   inputs.src-macroutils-v1_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
